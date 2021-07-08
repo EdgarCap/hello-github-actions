@@ -24,7 +24,7 @@ jobs:
       - name: Download math result for job 1
         uses: actions/download-artifact@v2
         with:
-          name: home*
+          name: homework
       - shell: bash
         run: |
           value=`cat math-homework.txt`
